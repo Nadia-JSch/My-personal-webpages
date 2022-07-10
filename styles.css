@@ -1,0 +1,287 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #43302a;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    /* float: left; */
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: #83dccf;
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #AEDBCE;
+    color: #43302a;
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+    opacity: 0.7;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #AEDBCE;
+    color: #43302a;
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+}
+
+.topnav a.hover {
+    background-color: #D9ADAD;
+}
+
+
+body {
+    color: #2A2438;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.5px;
+    background-color: #E1E6E4;
+
+}
+
+p {
+    color: #43302a;
+    height: 2;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ######## HEADINGS ########  */
+h1 {
+    color: #43302a;
+    margin-top: 50px auto 0 auto;
+    font-family: 'Reenie Beanie', cursive;
+    /*1em = 16px = 100% (for dynamic font sizing, r = ignore parent font settings)*/
+    font-size: 5.625rem;
+    /* text-shadow: 0.5px 0.5px whitesmoke; */
+}
+
+h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 2.5rem;
+    color: #43302a;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* quotes */
+q {
+    color: #492b22;
+    font-size: 18px;
+    quotes: initial;
+}
+
+/* line  */
+hr {
+    border: dotted;
+    border-bottom: none;
+    border-color: #839AA8;
+    border-width: 8px;
+    width: 120px;
+    /* center it, top/bottom, left-right*/
+    margin: 40px auto;
+}
+
+/* add hover state behaviour instead of link underline*/
+a:hover {
+    color: #D9ADAD;
+}
+
+/* ######## LINKS ######## */
+.github-link {
+    color: #8A8983;
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+    text-decoration: none;
+    height: 2
+}
+
+.thesis-link {
+    color: #839AA8;
+    text-decoration: none;
+    font-size: large;
+}
+
+.footer-link {
+    color: #94B49F;
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+    margin: 10px 20px;
+    /* get rid of link underline*/
+    text-decoration: none;
+}
+
+.hydev-link {
+    color: #8A8983;
+}
+
+/* ######## CONTAINERS AND ROWS ######## */
+.lead-container {
+    position: relative;
+    padding-top: 80px;
+    margin-bottom: 35px;
+    height: 800px;
+    background-image: url(images/lead\ image\ crop3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.long-blurb-container {
+    margin: 100px 0;
+
+}
+
+/* About me section */
+.about-container {
+    background-color: #f2f3f3;
+    padding: 2%;
+    padding-top: 35px
+}
+
+.quotes-container {
+
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: 5rem;
+    /* stack the quotes for smaller screens */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+}
+
+
+.about-row {
+    /*no units means it's the scale, so twice as big*/
+    line-height: 2;
+    /*position to the middle by setting the left and right margins to auto
+    params in order: top, right, bottom, left*/
+    margin: 80px auto 100px auto;
+    width: 50%;
+    /*overide the center align of the body*/
+    text-align: left;
+}
+
+.projects-container {
+    /*no units means it's the scale, so twice as big*/
+    line-height: 2;
+    /*position to the middle by setting the left and right margins to auto
+     params in order: top, right, bottom, left*/
+    margin: 50px auto 100px auto;
+    width: 50%;
+
+}
+
+.skill-list-container {
+    margin: 100px auto 100px auto;
+    background-color: #f2f3f3;
+    padding: 10px;
+
+}
+
+.contact-me {
+    background-image: url(images/lead\ image\ crop3.png);
+    background-size: cover;
+    padding: 45px;
+
+}
+
+.bottom-container {
+    background-color: #43302a;
+    padding: 30px 0 15px;
+}
+
+
+/* ######## TEXT ########  */
+.long-blurb-text {
+    line-height: 2;
+    margin: 50px auto;
+    width: 50%;
+    /*overide the center align of the body*/
+    text-align: left;
+}
+
+.welcome-container-text {
+
+    line-height: 2;
+    margin: 50px auto;
+    width: 50%;
+    /*overide the center align of the body*/
+    text-align: left;
+}
+
+.project-description {
+    /*overide the center align of the body*/
+    text-align: justify;
+}
+
+.quote-item {
+    text-align: center;
+    background-color: #f2f3f3;
+}
+
+
+
+/* ######## IMAGES ########  */
+/* change postion to absolute to set it's position from inline behaviour*/
+.top-cloud {
+    position: absolute;
+    right: 200px;
+    top: 60px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 100px;
+    bottom: 300px;
+}
+
+.education-image {
+    width: 25%;
+    /* put the text next to the image, to display both on the same line */
+    float: right;
+    /* space between the text and image */
+    margin-left: 30px;
+}
+
+.experience-image {
+    width: 25%;
+    /* put the text next to the image, to display both on the same line */
+    float: left;
+    /* space between the text and image */
+    margin-right: 30px;
+}
+
+.project-image {
+    width: 30%;
+}
+
+
+/* ######## BUTTON ######## 
+from https://css3buttongenerator.com/*/
+.btn {
+    background: #DBD8E3;
+    background-image: -webkit-linear-gradient(top, #94B49F, #2A2438);
+    background-image: -moz-linear-gradient(top, #94B49F, #2A2438);
+    background-image: -ms-linear-gradient(top, #94B49F, #2A2438);
+    background-image: -o-linear-gradient(top, #94B49F, #2A2438);
+    background-image: linear-gradient(to bottom, #94B49F, #2A2438);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
