@@ -1,4 +1,4 @@
-# nadia-schmidtke-resume
+# Nadia-Schmidtke-Webpages
 
 My (GitHub-hosted) website with the purpose of providing an informal resume and consolidating links to my online presence. 
 
@@ -15,6 +15,6 @@ Working on making improvements like making it slightly more responsive and updat
 
 ## Link
 
-Get there quickly: [Nadia's website](https://nadia-jsch.github.io/nadia-schmidtke-resume/)
+Get there quickly: [Nadia's website](https://nadia-jsch.github.io/Nadia-Schmidtke-Webpages/)
 
 
